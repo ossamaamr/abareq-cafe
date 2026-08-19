@@ -12,12 +12,15 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#mainContent">تخطى إلى المحتوى</a>
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
     <header class="site-header" id="top">
       <a class="brand" href="#top" aria-label="أباريق">
         <span class="brand-mark" aria-hidden="true"><span></span></span>
         <span><b>أباريق</b><small>ABAREQ CAFE</small></span>
       </a>
-      <nav class="nav-links" aria-label="التنقل الرئيسي">
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="فتح القائمة">☰</button>
+      <nav class="nav-links" id="siteNav" aria-label="التنقل الرئيسي">
         <a href="#menu" data-i18n="navMenu">القائمة</a>
         <a href="#story" data-i18n="navStory">الحكاية</a>
         <a href="#visit" data-i18n="navVisit">الزيارة</a>
@@ -28,7 +31,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="mainContent">
       <section class="hero section-dark">
         <div class="hero-image" role="img" aria-label="إبريق شاي وأجواء دافئة في أباريق"></div>
         <div class="hero-overlay"></div>
@@ -88,6 +91,7 @@
       </section>
     </main>
 
+    <button class="back-to-top" id="backToTop" type="button" aria-label="العودة إلى الأعلى">↑</button>
     <footer class="site-footer"><div class="container footer-grid"><div class="brand"><span class="brand-mark" aria-hidden="true"><span></span></span><span><b>أباريق</b><small>ABAREQ CAFE</small></span></div><p data-i18n="footerNote">شاي يُقدّم على مهل، في مدينة لا تُنسى.</p><a href="https://www.google.com/maps/place/Abareq+Cafe/@24.4865416,39.6632041,17z" target="_blank" rel="noreferrer">Google Maps ↗</a></div><div class="container footer-bottom"><span>© 2026 Abareq Cafe</span><span data-i18n="sourceNote">المعلومات العامة مرجعية وتتغير مع الوقت.</span></div></footer>
     <script src="app.js" defer></script>
   </body>
