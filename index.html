@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="أباريق — شاي على مهل، بطابع المدينة المنورة." />
+    <meta name="theme-color" content="#24170f" />
     <title>أباريق | Abareq Cafe</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -65,16 +66,16 @@
         <div class="container">
           <div class="section-heading"><div><div class="section-kicker"><span>02</span><span data-i18n="selectionKicker">اختيارات أباريق</span></div><h2 data-i18n="selectionTitle">ابدأ من الإبريق.</h2></div><p data-i18n="selectionNote">اختيارات مقترحة من الأسماء الظاهرة في قائمة المحل العامة. لا تُنشر كـ«الأفضل» إلا بعد اعتماد بيانات المبيعات.</p></div>
           <div class="feature-grid">
-            <article class="feature-card feature-dark"><img src="assets/tea-product.jpg" alt="إبريق شاي وكأس شاي" /><div><span class="card-number">01</span><h3>شاي أباريق</h3><p data-i18n="teaDescription">الاختيار الذي يبدأ منه اسم المكان.</p></div></article>
-            <article class="feature-card feature-berry"><img src="assets/dessert-product.jpg" alt="كيكة رد فلفت مع شاي" /><div><span class="card-number">02</span><h3>كيكة رد فلفت</h3><p data-i18n="cakeDescription">حلوى ظاهرة في قائمة أباريق المصورة.</p></div></article>
-            <article class="feature-card feature-nuts"><img src="assets/nuts-product.jpg" alt="مكسرات مالحة مع شاي" /><div><span class="card-number">03</span><h3>مكسرات مالحة</h3><p data-i18n="nutsDescription">مرافقة بسيطة لإبريق أطول.</p></div></article>
+            <article class="feature-card feature-dark"><img src="assets/tea-product.jpg" alt="إبريق شاي وكأس شاي" loading="lazy" decoding="async" /><div><span class="card-number">01</span><h3>شاي أباريق</h3><p data-i18n="teaDescription">الاختيار الذي يبدأ منه اسم المكان.</p></div></article>
+            <article class="feature-card feature-berry"><img src="assets/dessert-product.jpg" alt="كيكة رد فلفت مع شاي" loading="lazy" decoding="async" /><div><span class="card-number">02</span><h3>كيكة رد فلفت</h3><p data-i18n="cakeDescription">حلوى ظاهرة في قائمة أباريق المصورة.</p></div></article>
+            <article class="feature-card feature-nuts"><img src="assets/nuts-product.jpg" alt="مكسرات مالحة مع شاي" loading="lazy" decoding="async" /><div><span class="card-number">03</span><h3>مكسرات مالحة</h3><p data-i18n="nutsDescription">مرافقة بسيطة لإبريق أطول.</p></div></article>
           </div>
         </div>
       </section>
 
       <section class="menu-section section container" id="menu">
         <div class="section-heading"><div><div class="section-kicker"><span>03</span><span data-i18n="menuKicker">القائمة</span></div><h2 data-i18n="menuTitle">اختر مزاجك.</h2></div><p data-i18n="menuNote">الأسعار الحالية مأخوذة من صور القائمة العامة وتحتاج اعتماد المحل قبل النشر النهائي.</p></div>
-        <div class="menu-toolbar"><div class="menu-tabs" role="tablist"><button class="menu-tab active" data-filter="all" data-i18n="all">الكل</button><button class="menu-tab" data-filter="tea" data-i18n="tea">الشاي</button><button class="menu-tab" data-filter="coffee" data-i18n="coffee">القهوة</button><button class="menu-tab" data-filter="dessert" data-i18n="desserts">الحلويات</button><button class="menu-tab" data-filter="snack" data-i18n="extras">الإضافات</button></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="menuSearch" type="search" placeholder="ابحث في القائمة" data-i18n-placeholder="searchPlaceholder" /></label></div>
+        <div class="menu-toolbar"><div class="menu-tabs" role="tablist" aria-label="تصنيف القائمة"><button class="menu-tab active" role="tab" aria-selected="true" data-filter="all" data-i18n="all">الكل</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="tea" data-i18n="tea">الشاي</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="coffee" data-i18n="coffee">القهوة</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="dessert" data-i18n="desserts">الحلويات</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="snack" data-i18n="extras">الإضافات</button></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="menuSearch" type="search" placeholder="ابحث في القائمة" data-i18n-placeholder="searchPlaceholder" aria-label="البحث في القائمة" /></label></div>
         <div id="menuGrid" class="menu-grid" aria-live="polite"></div>
         <p id="menuEmpty" class="empty-state" hidden data-i18n="noResults">لا توجد منتجات مطابقة لهذا البحث.</p>
       </section>
