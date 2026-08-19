@@ -11,3 +11,15 @@ function categoryLabel(c){const labels={ar:{tea:'شاي',coffee:'قهوة',desse
 async function loadPrices(){try{const res=await fetch('data/prices.json',{cache:'no-store'});if(!res.ok)throw new Error(`prices.json returned ${res.status}`);const data=await res.json();if(!Array.isArray(data)||data.some(p=>!p||typeof p.name!=='string'||typeof p.price!=='string'))throw new Error('Invalid price data');products=data;renderMenu()}catch(e){console.error(e);qs('#menuGrid').innerHTML='<p class="empty-state">تعذر تحميل القائمة حالياً.</p>'}}
 qsa('.menu-tab').forEach(btn=>btn.addEventListener('click',()=>{qsa('.menu-tab').forEach(b=>{b.classList.remove('active');b.setAttribute('aria-selected','false')});btn.classList.add('active');btn.setAttribute('aria-selected','true');filter=btn.dataset.filter;renderMenu()}));
 qs('#menuSearch').addEventListener('input',renderMenu);qs('#langToggle').addEventListener('click',()=>{lang=lang==='ar'?'en':'ar';applyLanguage()});applyLanguage();loadPrices();
+
+// Abareq interaction layer: progressive enhancement, keyboard-safe navigation, and gentle motion.
+const menuToggle=qs('#menuToggle'),siteNav=qs('#siteNav'),backToTop=qs('#backToTop'),scrollProgress=qs('#scrollProgress');
+function closeMobileNav(){if(!menuToggle||!siteNav)return;menuToggle.setAttribute('aria-expanded','false');siteNav.classList.remove('is-open')}
+menuToggle?.addEventListener('click',()=>{const open=menuToggle.getAttribute('aria-expanded')==='true';menuToggle.setAttribute('aria-expanded',String(!open));siteNav.classList.toggle('is-open',!open)});
+qsa('#siteNav a').forEach(link=>link.addEventListener('click',closeMobileNav));
+document.addEventListener('keydown',event=>{if(event.key==='Escape')closeMobileNav()});
+const revealObserver='IntersectionObserver' in window?new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target)}}),{threshold:.12}):null;
+qsa('.story,.featured,.menu-section,.visit,.site-footer').forEach(section=>{section.classList.add('reveal');revealObserver?.observe(section)});
+function updateScrollUI(){const scrollable=document.documentElement.scrollHeight-window.innerHeight;const progress=scrollable>0?Math.min(100,(window.scrollY/scrollable)*100):0;if(scrollProgress)scrollProgress.style.width=`${progress}%`;backToTop?.classList.toggle('is-visible',window.scrollY>520)}
+window.addEventListener('scroll',updateScrollUI,{passive:true});updateScrollUI();
+backToTop?.addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
