@@ -19,7 +19,7 @@ menuToggle?.addEventListener('click',()=>{const open=menuToggle.getAttribute('ar
 qsa('#siteNav a').forEach(link=>link.addEventListener('click',closeMobileNav));
 document.addEventListener('keydown',event=>{if(event.key==='Escape')closeMobileNav()});
 const revealObserver='IntersectionObserver' in window?new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');revealObserver.unobserve(entry.target)}}),{threshold:.12}):null;
-qsa('.story,.featured,.menu-section,.visit,.site-footer').forEach(section=>{section.classList.add('reveal');revealObserver?.observe(section)});
+qsa('.story,.featured,.menu-section,.visit,.site-footer').forEach(section=>{section.classList.add('reveal');revealObserver?.observe(section)});if(!revealObserver)qsa('.reveal').forEach(section=>section.classList.add('is-visible'));
 function updateScrollUI(){const scrollable=document.documentElement.scrollHeight-window.innerHeight;const progress=scrollable>0?Math.min(100,(window.scrollY/scrollable)*100):0;if(scrollProgress)scrollProgress.style.width=`${progress}%`;backToTop?.classList.toggle('is-visible',window.scrollY>520)}
 window.addEventListener('scroll',updateScrollUI,{passive:true});updateScrollUI();
 backToTop?.addEventListener('click',()=>window.scrollTo({top:0,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'}));
