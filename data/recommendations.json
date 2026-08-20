@@ -20,10 +20,24 @@
     "tags": [
       "calm",
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "medium",
-    "reason": "شاي أباريق اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "شاي أباريق اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "شاي ملكي",
@@ -46,10 +60,24 @@
     "tags": [
       "strong",
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "شاي ملكي اختيار مباشر لمن يفضّل النكهة المركّزة."
+    "reason": "شاي ملكي اختيار مباشر لمن يفضّل النكهة المركّزة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "شاي دم الغزال",
@@ -72,10 +100,24 @@
     "tags": [
       "strong",
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "شاي دم الغزال يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "شاي دم الغزال يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "شاي عراقي",
@@ -98,10 +140,24 @@
     "tags": [
       "strong",
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "شاي عراقي يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "شاي عراقي يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "شاي توفامين",
@@ -124,10 +180,25 @@
     "tags": [
       "sweet",
       "spiced",
-      "calm"
+      "calm",
+      "hot"
     ],
     "caffeine": "medium",
-    "reason": "شاي توفامين يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "شاي توفامين يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "شاي مغربي",
@@ -150,10 +221,24 @@
     "tags": [
       "fresh",
       "calm",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "medium",
-    "reason": "شاي مغربي خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "شاي مغربي خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "شاي مديني",
@@ -176,10 +261,24 @@
     "tags": [
       "calm",
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "medium",
-    "reason": "شاي مديني اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "شاي مديني اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "شاي أبيض",
@@ -202,10 +301,22 @@
     "tags": [
       "fresh",
       "light",
-      "calm"
+      "calm",
+      "hot"
     ],
     "caffeine": "low",
-    "reason": "شاي أبيض خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "شاي أبيض خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": []
   },
   {
     "name": "شاي الفواكه",
@@ -228,10 +339,24 @@
     "tags": [
       "fresh",
       "sweet",
-      "calm"
+      "calm",
+      "hot"
     ],
     "caffeine": "low",
-    "reason": "شاي الفواكه خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "شاي الفواكه خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "شاي زهورات",
@@ -254,10 +379,22 @@
     "tags": [
       "fresh",
       "calm",
-      "light"
+      "light",
+      "hot"
     ],
     "caffeine": "low",
-    "reason": "شاي زهورات خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "شاي زهورات خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": []
   },
   {
     "name": "شاي مخلوط",
@@ -280,10 +417,24 @@
     "tags": [
       "strong",
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "شاي مخلوط اختيار مباشر لمن يفضّل النكهة المركّزة."
+    "reason": "شاي مخلوط اختيار مباشر لمن يفضّل النكهة المركّزة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "شاي كرك",
@@ -307,10 +458,25 @@
       "strong",
       "spiced",
       "sweet",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "شاي كرك يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "شاي كرك يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "كركديه",
@@ -333,10 +499,24 @@
     "tags": [
       "fresh",
       "sweet",
-      "light"
+      "light",
+      "hot"
     ],
     "caffeine": "low",
-    "reason": "كركديه خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "كركديه خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "late",
+      "share"
+    ],
+    "occasion": [
+      "share"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "إسبريسو",
@@ -353,10 +533,23 @@
     "tags": [
       "strong",
       "focused",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "إسبريسو اختيار مباشر لمن يفضّل النكهة المركّزة."
+    "reason": "إسبريسو اختيار مباشر لمن يفضّل النكهة المركّزة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "أمريكانو",
@@ -373,10 +566,23 @@
     "tags": [
       "strong",
       "focused",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "أمريكانو اختيار مباشر لمن يفضّل النكهة المركّزة."
+    "reason": "أمريكانو اختيار مباشر لمن يفضّل النكهة المركّزة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "ميكانو",
@@ -393,10 +599,23 @@
     "tags": [
       "strong",
       "focused",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "ميكانو اختيار مباشر لمن يفضّل النكهة المركّزة."
+    "reason": "ميكانو اختيار مباشر لمن يفضّل النكهة المركّزة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "كورتادو",
@@ -413,10 +632,23 @@
     "tags": [
       "strong",
       "classic",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "كورتادو اختيار مباشر لمن يفضّل النكهة المركّزة."
+    "reason": "كورتادو اختيار مباشر لمن يفضّل النكهة المركّزة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "فلات وايت",
@@ -433,10 +665,23 @@
     "tags": [
       "strong",
       "classic",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "فلات وايت اختيار مباشر لمن يفضّل النكهة المركّزة."
+    "reason": "فلات وايت اختيار مباشر لمن يفضّل النكهة المركّزة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "كابتشينو",
@@ -453,10 +698,24 @@
     "tags": [
       "sweet",
       "classic",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "كابتشينو مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "كابتشينو مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "لاتيه",
@@ -473,10 +732,24 @@
     "tags": [
       "sweet",
       "calm",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "لاتيه مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "لاتيه مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "سبانش لاتيه",
@@ -493,10 +766,24 @@
     "tags": [
       "sweet",
       "calm",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "سبانش لاتيه مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "سبانش لاتيه مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "قهوة تركية",
@@ -513,10 +800,23 @@
     "tags": [
       "strong",
       "spiced",
-      "calm"
+      "calm",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "قهوة تركية يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "قهوة تركية يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine"
+    ]
   },
   {
     "name": "سحلب",
@@ -533,10 +833,25 @@
     "tags": [
       "sweet",
       "calm",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "high",
-    "reason": "سحلب مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "سحلب مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "focus"
+    ],
+    "occasion": [
+      "share",
+      "solo"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "آيس لاتيه",
@@ -553,10 +868,24 @@
     "tags": [
       "fresh",
       "sweet",
-      "solo"
+      "solo",
+      "cold"
     ],
     "caffeine": "high",
-    "reason": "آيس لاتيه خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "آيس لاتيه خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "cold",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "fresh"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "آيس سبانش",
@@ -573,10 +902,24 @@
     "tags": [
       "fresh",
       "sweet",
-      "solo"
+      "solo",
+      "cold"
     ],
     "caffeine": "high",
-    "reason": "آيس سبانش خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "آيس سبانش خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "cold",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "fresh"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "آيس روز",
@@ -593,10 +936,24 @@
     "tags": [
       "fresh",
       "sweet",
-      "solo"
+      "solo",
+      "cold"
     ],
     "caffeine": "none",
-    "reason": "آيس روز خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "آيس روز خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "cold",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "solo",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "آيس موكا",
@@ -613,10 +970,24 @@
     "tags": [
       "fresh",
       "sweet",
-      "solo"
+      "solo",
+      "cold"
     ],
     "caffeine": "high",
-    "reason": "آيس موكا خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "آيس موكا خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "cold",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "fresh"
+    ],
+    "occasion": [
+      "solo"
+    ],
+    "avoid": [
+      "caffeine",
+      "sugar"
+    ]
   },
   {
     "name": "ميكس بيري",
@@ -633,10 +1004,24 @@
     "tags": [
       "fresh",
       "sweet",
-      "share"
+      "share",
+      "cold"
     ],
     "caffeine": "none",
-    "reason": "ميكس بيري خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "ميكس بيري خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "cold",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "موهيتو",
@@ -652,10 +1037,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "fresh",
-      "share"
+      "share",
+      "cold"
     ],
     "caffeine": "none",
-    "reason": "موهيتو خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "موهيتو خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "cold",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "ماء",
@@ -671,10 +1068,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "light",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "ماء اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "ماء اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "solo",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "كروسان جبن",
@@ -690,10 +1099,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "classic",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "كروسان جبن اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "كروسان جبن اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "solo",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "فطيرة الجبن الحارة",
@@ -709,10 +1130,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "spiced",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "فطيرة الجبن الحارة يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "فطيرة الجبن الحارة يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "solo",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "باني شيدر",
@@ -728,10 +1161,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "باني شيدر اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "باني شيدر اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "سميت سادة",
@@ -747,10 +1192,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "classic",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "سميت سادة اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "سميت سادة اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "solo",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "سميت جبن",
@@ -766,10 +1223,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "classic",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "سميت جبن اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "سميت جبن اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "solo",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "فطيرة جبنة وزيتون",
@@ -785,10 +1254,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "فطيرة جبنة وزيتون اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "فطيرة جبنة وزيتون اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "بانكا شوكولات",
@@ -804,10 +1285,24 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "sweet",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "بانكا شوكولات مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "بانكا شوكولات مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "كيكة رد فلفت",
@@ -824,10 +1319,25 @@
     "tags": [
       "sweet",
       "calm",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "كيكة رد فلفت مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "كيكة رد فلفت مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "كيكة بلو بيري",
@@ -844,10 +1354,25 @@
     "tags": [
       "sweet",
       "fresh",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "كيكة بلو بيري خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "كيكة بلو بيري خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "كيكة زعفران",
@@ -864,10 +1389,25 @@
     "tags": [
       "sweet",
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "كيكة زعفران يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "كيكة زعفران يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "كيكة العسل",
@@ -884,10 +1424,25 @@
     "tags": [
       "sweet",
       "calm",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "كيكة العسل مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "كيكة العسل مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "تشيزر التوت",
@@ -904,10 +1459,25 @@
     "tags": [
       "sweet",
       "fresh",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "تشيزر التوت خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "تشيزر التوت خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "تشيزر البستاشيو",
@@ -924,10 +1494,25 @@
     "tags": [
       "sweet",
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "تشيزر البستاشيو يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "تشيزر البستاشيو يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "تشيزر اللافندر",
@@ -944,10 +1529,25 @@
     "tags": [
       "sweet",
       "fresh",
-      "calm"
+      "calm",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "تشيزر اللافندر خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "تشيزر اللافندر خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "بان كيك ميني",
@@ -965,10 +1565,25 @@
     "sizeLabelsNeedConfirmation": true,
     "tags": [
       "sweet",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "بان كيك ميني مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "بان كيك ميني مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "بافلوة بالفستق",
@@ -985,10 +1600,25 @@
     "tags": [
       "sweet",
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "بافلوة بالفستق يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "بافلوة بالفستق يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "ورق عنب 5 حبات",
@@ -1004,10 +1634,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "fresh",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "ورق عنب 5 حبات خيار أخف وأكثر انتعاشاً للحظة هادئة."
+    "reason": "ورق عنب 5 حبات خيار أخف وأكثر انتعاشاً للحظة هادئة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "مكسرات عربي",
@@ -1023,10 +1665,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "مكسرات عربي يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "مكسرات عربي يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "مكسرات ياباني",
@@ -1042,10 +1696,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "مكسرات ياباني اختيار متوازن لبداية مريحة من قائمة أباريق."
+    "reason": "مكسرات ياباني اختيار متوازن لبداية مريحة من قائمة أباريق.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "مكسرات مصري",
@@ -1061,10 +1727,22 @@
     "sizeLabelsNeedConfirmation": false,
     "tags": [
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "مكسرات مصري يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "مكسرات مصري يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "morning",
+      "afternoon",
+      "share"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": []
   },
   {
     "name": "كيكة الدخن مديني",
@@ -1081,10 +1759,25 @@
     "tags": [
       "sweet",
       "classic",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "كيكة الدخن مديني مناسب لمن يريد لمسة حلوة مع الجلسة."
+    "reason": "كيكة الدخن مديني مناسب لمن يريد لمسة حلوة مع الجلسة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "كيكة التمر مديني",
@@ -1101,10 +1794,25 @@
     "tags": [
       "sweet",
       "spiced",
-      "share"
+      "share",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "كيكة التمر مديني يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "كيكة التمر مديني يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "مفن الهيل",
@@ -1121,10 +1829,26 @@
     "tags": [
       "sweet",
       "spiced",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "مفن الهيل يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "مفن الهيل يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "solo",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   },
   {
     "name": "مفن الزنجبيل",
@@ -1141,9 +1865,25 @@
     "tags": [
       "sweet",
       "spiced",
-      "solo"
+      "solo",
+      "hot"
     ],
     "caffeine": "none",
-    "reason": "مفن الزنجبيل يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة."
+    "reason": "مفن الزنجبيل يحمل طابعاً دافئاً ومتّبلاً يناسب من يحب النكهات الواضحة.",
+    "temperature": "hot",
+    "timeFit": [
+      "afternoon",
+      "evening",
+      "share",
+      "sweet"
+    ],
+    "occasion": [
+      "share",
+      "solo",
+      "guest"
+    ],
+    "avoid": [
+      "sugar"
+    ]
   }
 ]
