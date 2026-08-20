@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="قائمة منتجات أباريق وأسعارها الحالية." />
+  <title>القائمة | أباريق</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="products-page">
+  <a class="skip-link" href="#productsMain">تخطى إلى المحتوى</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="أباريق"><span class="brand-mark" aria-hidden="true"><span></span></span><span><b>أباريق</b><small>ABAREQ CAFE</small></span></a>
+    <nav class="nav-links products-nav" aria-label="التنقل الرئيسي"><a href="index.html" data-i18n="home">الرئيسية</a><a href="index.html#story" data-i18n="story">الحكاية</a><a href="index.html#visit" data-i18n="visit">الزيارة</a></nav>
+    <div class="header-actions"><button class="lang-toggle" id="langToggle" type="button">EN</button><a class="button button-small" href="https://maps.app.goo.gl/EAAQWbcBdx2AiWVx8?g_st=aw" target="_blank" rel="noreferrer" data-i18n="directions">الاتجاهات</a></div>
+  </header>
+  <main id="productsMain">
+    <section class="products-hero section-dark"><div class="container"><div class="section-kicker light"><span>03</span><span data-i18n="kicker">قائمة أباريق</span></div><h1 data-i18n="title">اختر ما<br /><em>يشبه مزاجك.</em></h1><p data-i18n="intro">كل المنتجات الظاهرة في القائمة العامة، مرتبة لتقرأها بسرعة وتختار بهدوء.</p></div></section>
+    <section class="products-section section-cream"><div class="container"><div class="products-toolbar"><div class="products-tabs" role="tablist"><button class="product-tab active" data-category="all" data-i18n="all">الكل</button><button class="product-tab" data-category="tea" data-i18n="tea">الشاي</button><button class="product-tab" data-category="coffee" data-i18n="coffee">القهوة</button><button class="product-tab" data-category="dessert" data-i18n="desserts">الحلويات</button><button class="product-tab" data-category="snack" data-i18n="extras">الإضافات</button></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="productsSearch" type="search" data-i18n-placeholder="search" placeholder="ابحث في القائمة" aria-label="البحث في القائمة" /></label></div><p class="price-note" data-i18n="note">الأسعار من صور القائمة العامة، وتحتاج اعتماد المحل قبل النشر النهائي. عناوين الأحجام توضيحية عندما لا تظهر في الصورة بوضوح.</p><div class="products-grid" id="productsGrid" aria-live="polite"></div><p id="productsEmpty" class="empty-state" hidden data-i18n="empty">لا توجد منتجات مطابقة.</p></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-grid"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><span></span></span><span><b>أباريق</b><small>ABAREQ CAFE</small></span></a><p data-i18n="footer">شاي يُقدّم على مهل، في مدينة لا تُنسى.</p><a href="index.html" data-i18n="back">العودة إلى الصفحة الرئيسية ↗</a></div></footer>
+  <script src="products.js" defer></script>
+</body>
+</html>
