@@ -78,14 +78,14 @@
 
       <section class="recommender-section section-cream" id="menu">
         <div class="container">
-          <div class="section-heading"><div><div class="section-kicker"><span>03</span><span data-i18n="recommenderKicker">المحرك الذكي</span></div><h2 data-i18n="recommenderTitle">دع مزاجك يختار.</h2></div><p data-i18n="recommenderNote">أجب عن أسئلة قصيرة، وسنطابق ذوقك مع المنتجات المسجلة في قائمة أباريق.</p></div>
-          <div class="recommendation-panel" id="recommendationPanel">
-            <div class="recommendation-question" data-question="1"><span class="question-step">01</span><h3 data-i18n="questionMood">ما الذي يناسب لحظتك؟</h3><div class="choice-grid"><button type="button" data-answer="mood" data-value="calm" data-i18n="moodCalm">جلسة هادئة</button><button type="button" data-answer="mood" data-value="energy" data-i18n="moodEnergy">أحتاج تركيزاً</button><button type="button" data-answer="mood" data-value="sweet" data-i18n="moodSweet">أرغب بحلوى</button></div></div>
-            <div class="recommendation-question" data-question="2"><span class="question-step">02</span><h3 data-i18n="questionTaste">أي طابع تفضّل؟</h3><div class="choice-grid"><button type="button" data-answer="taste" data-value="strong" data-i18n="tasteStrong">قوي ومركّز</button><button type="button" data-answer="taste" data-value="spiced" data-i18n="tasteSpiced">متبّل ودافئ</button><button type="button" data-answer="taste" data-value="fresh" data-i18n="tasteFresh">خفيف ومنعش</button></div></div>
-            <div class="recommendation-question" data-question="3"><span class="question-step">03</span><h3 data-i18n="questionAmount">كم تريد أن تشارك؟</h3><div class="choice-grid"><button type="button" data-answer="amount" data-value="solo" data-i18n="amountSolo">لي وحدي</button><button type="button" data-answer="amount" data-value="share" data-i18n="amountShare">جلسة مشاركة</button><button type="button" data-answer="amount" data-value="any" data-i18n="amountAny">لا يهم</button></div></div>
-            <div class="recommendation-result" id="recommendationResult" aria-live="polite" hidden></div>
+          <div class="section-heading"><div><div class="section-kicker"><span>03</span><span data-i18n="recommenderKicker">المحرك الذكي</span></div><h2 data-i18n="recommenderTitle">احكِ لي عن طلبك.</h2></div><p data-i18n="recommenderNote">ليست اختباراً. اكتب ما تشتهيه أو دعني أسألك سؤالاً واحداً في كل مرة.</p></div>
+          <div class="assistant-shell" id="recommendationPanel" aria-live="polite">
+            <div class="assistant-topline"><span class="assistant-pulse"></span><span data-i18n="assistantStatus">أباريق يسمعك</span><span class="assistant-time" id="assistantTime"></span></div>
+            <div class="assistant-progress"><span id="assistantProgressBar"></span></div>
+            <div class="assistant-stage" id="assistantStage"></div>
+            <div class="assistant-actions"><button class="button button-primary" id="assistantNext" type="button" data-i18n="assistantNext">التالي</button><button class="text-link assistant-back" id="assistantBack" type="button" data-i18n="assistantBack">رجوع</button></div>
           </div>
-          <div class="recommendation-footer"><p data-i18n="recommendationDisclaimer">الترشيحات مبنية على سمات القائمة المنشورة، وليست ادعاءً بأن المنتج «الأفضل» مبيعاً.</p><a class="button button-primary" href="products.html" data-i18n="browseAllProducts">استعرض المنتجات كاملة</a></div>
+          <div class="recommendation-footer"><p data-i18n="recommendationDisclaimer">الترشيحات مبنية على سمات القائمة المنشورة، وليست ادعاءً بأن المنتج «الأفضل» مبيعاً.</p><a class="button button-ghost dark-ghost" href="products.html" data-i18n="browseAllProducts">استعرض المنتجات كاملة</a></div>
         </div>
       </section>
 
