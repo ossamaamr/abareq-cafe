@@ -21,7 +21,7 @@
       </a>
       <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="فتح القائمة">☰</button>
       <nav class="nav-links" id="siteNav" aria-label="التنقل الرئيسي">
-        <a href="#menu" data-i18n="navMenu">القائمة</a>
+        <a href="products.html" data-i18n="navMenu">القائمة</a>
         <a href="#story" data-i18n="navStory">الحكاية</a>
         <a href="#visit" data-i18n="navVisit">الزيارة</a>
       </nav>
@@ -40,7 +40,7 @@
           <h1 data-i18n="heroTitle">حين يصبح<br /><em>الشاي مجلساً.</em></h1>
           <p class="hero-copy" data-i18n="heroCopy">إبريق دافئ، ضوء كهرماني، ووقت لا يحتاج إلى استعجال.</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#menu" data-i18n="viewMenu">شاهد القائمة</a>
+            <a class="button button-primary" href="products.html" data-i18n="viewMenu">شاهد القائمة</a>
             <a class="text-link" href="tel:+966577688820" data-i18n="callNow">اتصل الآن <span>↗</span></a>
           </div>
           <div class="hero-note"><span class="status-dot"></span><span data-i18n="openNote">الفرع الموثق في المبعوث · مفتوح حسب ساعات المحل المعتمدة</span></div>
@@ -76,11 +76,17 @@
         </div>
       </section>
 
-      <section class="menu-section section container" id="menu">
-        <div class="section-heading"><div><div class="section-kicker"><span>03</span><span data-i18n="menuKicker">القائمة</span></div><h2 data-i18n="menuTitle">اختر مزاجك.</h2></div><p data-i18n="menuNote">الأسعار الحالية مأخوذة من صور القائمة العامة وتحتاج اعتماد المحل قبل النشر النهائي.</p></div>
-        <div class="menu-toolbar"><div class="menu-tabs" role="tablist" aria-label="تصنيف القائمة"><button class="menu-tab active" role="tab" aria-selected="true" data-filter="all" data-i18n="all">الكل</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="tea" data-i18n="tea">الشاي</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="coffee" data-i18n="coffee">القهوة</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="dessert" data-i18n="desserts">الحلويات</button><button class="menu-tab" role="tab" aria-selected="false" data-filter="snack" data-i18n="extras">الإضافات</button></div><label class="search-box"><span aria-hidden="true">⌕</span><input id="menuSearch" type="search" placeholder="ابحث في القائمة" data-i18n-placeholder="searchPlaceholder" aria-label="البحث في القائمة" /></label></div>
-        <div id="menuGrid" class="menu-grid" aria-live="polite"></div>
-        <p id="menuEmpty" class="empty-state" hidden data-i18n="noResults">لا توجد منتجات مطابقة لهذا البحث.</p>
+      <section class="recommender-section section-cream" id="menu">
+        <div class="container">
+          <div class="section-heading"><div><div class="section-kicker"><span>03</span><span data-i18n="recommenderKicker">المحرك الذكي</span></div><h2 data-i18n="recommenderTitle">دع مزاجك يختار.</h2></div><p data-i18n="recommenderNote">أجب عن أسئلة قصيرة، وسنطابق ذوقك مع المنتجات المسجلة في قائمة أباريق.</p></div>
+          <div class="recommendation-panel" id="recommendationPanel">
+            <div class="recommendation-question" data-question="1"><span class="question-step">01</span><h3 data-i18n="questionMood">ما الذي يناسب لحظتك؟</h3><div class="choice-grid"><button type="button" data-answer="mood" data-value="calm" data-i18n="moodCalm">جلسة هادئة</button><button type="button" data-answer="mood" data-value="energy" data-i18n="moodEnergy">أحتاج تركيزاً</button><button type="button" data-answer="mood" data-value="sweet" data-i18n="moodSweet">أرغب بحلوى</button></div></div>
+            <div class="recommendation-question" data-question="2"><span class="question-step">02</span><h3 data-i18n="questionTaste">أي طابع تفضّل؟</h3><div class="choice-grid"><button type="button" data-answer="taste" data-value="strong" data-i18n="tasteStrong">قوي ومركّز</button><button type="button" data-answer="taste" data-value="spiced" data-i18n="tasteSpiced">متبّل ودافئ</button><button type="button" data-answer="taste" data-value="fresh" data-i18n="tasteFresh">خفيف ومنعش</button></div></div>
+            <div class="recommendation-question" data-question="3"><span class="question-step">03</span><h3 data-i18n="questionAmount">كم تريد أن تشارك؟</h3><div class="choice-grid"><button type="button" data-answer="amount" data-value="solo" data-i18n="amountSolo">لي وحدي</button><button type="button" data-answer="amount" data-value="share" data-i18n="amountShare">جلسة مشاركة</button><button type="button" data-answer="amount" data-value="any" data-i18n="amountAny">لا يهم</button></div></div>
+            <div class="recommendation-result" id="recommendationResult" aria-live="polite" hidden></div>
+          </div>
+          <div class="recommendation-footer"><p data-i18n="recommendationDisclaimer">الترشيحات مبنية على سمات القائمة المنشورة، وليست ادعاءً بأن المنتج «الأفضل» مبيعاً.</p><a class="button button-primary" href="products.html" data-i18n="browseAllProducts">استعرض المنتجات كاملة</a></div>
+        </div>
       </section>
 
       <section class="visit section-dark" id="visit">
